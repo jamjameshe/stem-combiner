@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Page Title</title>
+</head>
+<body>
+    <h1>Stem Mixer</h1>
+
+    <div id="tracks"></div>
+
+    <button onclick="playAll()">▶ Play All</button>
+    <button onclick="pauseAll()">⏸ Pause All</button>
+    <button onclick="stopAll()">⏹ Stop All</button>
+
+    <br><br>
+    <label>
+        Add Track:
+        <input type="file" accept="audio/*" onchange="addTrack(event)">
+    </label>
+    <script src="js/script.js"></script>
+</body>
+</html>

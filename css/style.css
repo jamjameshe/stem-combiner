@@ -1,0 +1,4 @@
+body { font-family: sans-serif; padding: 20px; }
+.track { margin: 10px 0; }
+input[type="range"] { width: 200px; }
+audio { display: block; margin-top: 5px; }
