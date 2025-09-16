@@ -1,0 +1,56 @@
+.track {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+canvas.volume-visual {
+  width: 100%;
+  height: 60px;
+  display: block;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.volume-label {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.volume-slider {
+  width: 120px;        /* limited width */
+  accent-color: #007bff;
+  cursor: pointer;
+}
+/* 
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode .track {
+  border-color: #444;
+  background-color: #1e1e1e;
+}
+
+body.dark-mode canvas.volume-visual {
+  background-color: #222;
+  border-color: #444;
+}
+
+body.dark-mode .volume-slider {
+  accent-color: #0d6efd;
+}
+
+body.dark-mode .btn {
+  border-color: #555;
+} */
