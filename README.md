@@ -5,3 +5,5 @@ A small personal project I vibecpded for combining audio stems split from the sa
 ## Usage
 
 You can check it out on my blog here: https://jamjameshe.github.io/stem-combiner
+
+https://github.com/user-attachments/assets/b464afcf-3331-4701-b813-ff87be948a43
